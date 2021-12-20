@@ -1,14 +1,18 @@
 {
-  "name": "notion-snap",
-  "version": "1.2.1",
+  "name": "notion",
+  "version": "1.3.1",
   "description": "A snap of Notion",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder --linux snap"
+    "snap": "electron-builder --linux snap",
+    "dist": "electron-builder --linux deb"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Georgy Grigoryev",
+    "email": "iamkarlson@gmail.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "electron": "11.1.0",
